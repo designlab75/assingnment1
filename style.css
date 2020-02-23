@@ -18,7 +18,16 @@ p{
 }
 section{
     height: 500px;
+    margin: 2%;
     padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightSalmon, rgb(248, 39, 2));
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: seashell;
+    font-weight: 700;
 }
 .half-width{
     width: 30%;
@@ -37,17 +46,17 @@ section{
 .header-area{
     background-image: url(images/header-bg.png);
     background-size: contain;
-     align-content: center;
+    background-repeat: no-repeat;
 }
 .biography-area{
     background-image: url(images/biography-bg.png);
-    background-size: contain;    
+    background-size: contain; 
+    background-repeat: no-repeat;   
 }
 .third-image{
-    width: 25%;
+    width: 20%;
     float: left;
-    margin: 3%;
-
+    margin: 5%;    
 }
 .third-image img{
     width: 100%;
@@ -55,10 +64,29 @@ section{
 .latest-work{
     background-image: url(images/latest-work-bg.png);
     background-size: contain;
+    background-repeat: no-repeat;
 }
-.text-high{
+.text-c{
     text-align: center;
 }
+.review-area{
+    background-image: url(images/footer-bg.png);
+    background-size: contain;
+    background: no-repeat;
+}
+
 .box-size{
-    box-shadow: red;
+    text-align: center;    
+    background-image: linear-gradient(rgb(230, 27, 152), rgb(144, 6, 110));
+    padding: 10px 20px;
+    border-radius: 5px;    
+    font-weight: 700;
+    margin: 20px 30% 0px 30%;
+}
+.color-set{
+    color: rgb(255, 255, 255);
+}
+footer{
+    text-align: center;
+    font-size: small;
 }
